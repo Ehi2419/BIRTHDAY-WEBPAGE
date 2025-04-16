@@ -1,0 +1,286 @@
+ body{
+    overflow-x:hidden ;
+    margin: 0;
+    font-family: "Montserrat alternates";
+} 
+.navbar{
+    display: flex;
+    position: fixed;
+    min-width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(250, 185, 64, 0.199);
+}
+.chosen2{
+    position: relative;
+}
+.home{
+    margin-right: 80px;
+}
+.marryme{
+    color: purple;
+    position: absolute;
+    right: 10px;
+}
+.marryme img{
+    position: absolute;
+    width: 60px;
+    top: 20px;
+    left: 0px;
+}
+.marry:hover{
+    color: purple;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.nav li {
+    list-style: none;
+    padding: 5px;
+}
+.logo{
+    width: 70px;
+    margin-right: 750px;
+}
+li a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: black;
+}
+.cute{
+    margin-top: 150px;
+    text-align: center;
+    
+}
+.cute p{
+     /* position: absolute; */
+    max-width: 600px; 
+    margin: auto;
+}
+.animation1{
+    position: relative;
+    display: flex;
+    margin-left: 22%;
+    top: 120px;
+
+}
+.animation2{
+    position: relative;
+    display: flex;
+    left:72%;
+}
+.rect{
+    width: 24px;
+    height: 7px;
+    background-color: black;
+    margin-left: 2px;
+    animation: upanddown 2s ease-in-out infinite ;
+}
+.yellow{
+    background-color: yellow;
+    animation-duration: 1.7s;
+}
+.purple{
+    background-color: purple;
+    animation-duration: 1.5s;
+}
+.red{
+    background-color: red;
+    animation-duration: 1.2;
+}
+@keyframes upanddown{
+    0%,100%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    
+}
+.gallery-v3{
+    position: absolute;
+    width: 150px;
+    bottom:520px ;
+    left: 260px;
+}
+.gallery-v4{
+    position: absolute;
+    width: 150px;
+    bottom: 320px;
+    right:250px ;
+}
+.flex{
+    margin-top: 110px;
+    margin-left: 90px;
+    display: flex;
+}
+.grid6{
+    width: 29%;
+    height: 400px;
+    margin-left: 30px;
+    object-fit: cover;
+    border: 2px solid rgb(211, 170, 211);
+    border-radius: 15px;
+}
+.grid7{
+    width: 10%;
+    height: 400px;
+    margin-left: 30px;
+    object-fit: cover;
+    border: 2px solid rgb(211, 170, 211);
+    border-radius: 15px;
+}
+.flex2{
+    margin-left: 90px;
+    margin-top: 20px;
+    display: flex;
+}
+.grid8{ 
+    width: 29%;
+    height:200px;
+    margin-bottom: 70px;
+    margin-left: 30px;
+    border: 2px solid rgb(211, 170, 211);
+    border-radius: 15px;
+    object-fit: cover;
+    
+}
+.grid9{
+    
+    width: 10%;
+    height: 200px;
+    margin-left: 30px;
+    border: 2px solid rgb(211, 170, 211);
+    border-radius: 15px;
+    object-fit: cover;
+
+    
+}
+.flex3{
+    margin-left: 90px;
+    display: flex;
+}
+.grid10{
+    width:42%;
+    height:170px ;
+    margin-top: -45px;
+    margin-left: 29px;
+    object-fit: cover;
+    border: 2px solid rgb(211, 170, 211);
+    border-radius: 15px;
+}
+ .grids{
+    display: flex; 
+    margin-top: 30px;
+    margin-left: 110px;
+} 
+
+.gridsss{
+    display: flex;
+}
+.grid1{
+    width: 90%;
+    height: 400px;
+    margin-left: 10px;
+    object-fit: cover;
+    border: 2px solid rgb(211, 170, 211);
+    border-radius: 15px;
+}
+.grid2{ 
+    width: 110%;
+    height:200px;
+    margin-bottom: 70px;
+    margin-left: 18px;
+    border: 2px solid rgb(211, 170, 211);
+    border-radius: 15px;
+    object-fit: cover;
+    
+}
+.grid3{
+    
+width: 40%;
+height: 200px;
+margin-left: 45px;
+border: 2px solid rgb(211, 170, 211);
+border-radius: 15px;
+object-fit: cover;}
+.grid4{
+width:120%;
+height:170px ;
+margin-top: -45px;
+margin-left: 18px;
+object-fit: cover;
+border: 2px solid rgb(211, 170, 211);
+border-radius: 15px;
+}
+.grid5{
+width: 40%;
+height: 400px;
+margin-left: 135px;
+object-fit: cover;
+border: 2px solid rgb(211, 170, 211);
+border-radius: 15px;
+}
+ .rule{
+     position: relative; 
+    margin-top: 100px;
+}
+.rule hr{
+    background-color: black;
+    
+    height: 3px;
+    margin-top: 30px;
+}
+.ruleone{
+    position: absolute;
+    width:100px ;
+    transform: rotate(130deg);
+    top: -115px;
+    right: 97%;
+    animation: change 4s infinite linear;
+}
+.ruletwo{
+    position: absolute;
+    width: 100px;
+    transform: rotate(-130deg);
+    left:97% ;
+     top:-115px ;
+     animation: change 4s infinite linear;
+}
+@keyframes change{
+    25%{
+        filter: hue-rotate(60deg);
+    }
+    75%{
+        filter:hue-rotate(300deg)
+    }
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-right:200px ;
+ }
+ .attend{
+    margin-left: 100px;
+ }
+ 
+ .attend p{
+    max-width: 460px;
+ }
+ .attend input{ 
+    border-radius: 30px;
+    border: 2px solid black;
+    width: 130px;
+    height: 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+    padding-left: 25px;
+ } 
+
+  
+
